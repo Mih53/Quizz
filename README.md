@@ -8,4 +8,4 @@ Programa em C que apresenta um quiz interativo sobre figuras da mitologia brasil
 
 Objetivo: 
 
-Testar conhecimentos, ensinar curiosidades e divertir com perguntas e respostas sobre cada personagem.
+Testar conhecimentos, ensinar curiosidades e se divertir com perguntas sobre cada personagem.
