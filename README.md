@@ -24,17 +24,17 @@ Opção recomendada (UTF-8 - mais portável):
 chcp 65001
 gcc -finput-charset=UTF-8 -fexec-charset=UTF-8 quiz.c -o quiz.exe
 .\\quiz.exe
-```
+
 
 Opção alternativa (manter ANSI/Windows-1252):
 
 Se o arquivo estiver em codificação ANSI (Windows-1252), use:
 
-```powershell
+powershell
 chcp 1252
 gcc quiz.c -o quiz.exe
 .\\quiz.exe
-```
+
 
 Observações:
 - Eu recomendo a opção UTF-8 por ser mais portável entre sistemas e terminais modernos.
