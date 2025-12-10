@@ -33,7 +33,7 @@ void exibirMenu() {
     printf("Escolha uma opção: ");
 }
 
-// Menu de níveis que retorna número de perguntas
+// Menu de níveis que retorna o número de perguntas
 int escolherNivel() {
     int nivel = 0;
     printf("\nEscolha o nível:\n");
