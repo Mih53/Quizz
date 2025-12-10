@@ -178,11 +178,11 @@ int jogarQuiz(Pergunta perguntas[], int total, int nRodada) {
     for (int i = 0; i < nRodada; i++) {
         exibirPergunta(perguntas[i]);
         if (scanf(" %c", &resposta) != 1) {
-            printf("Opss, entrada inválida, tente novamente!\n");
+            printf("Opss, tente novamente!\n");
             continue;
         }
         if (verificarResposta(perguntas[i], resposta)) {
-            printf("Resposta Corrata :) \n");
+            printf("Resposta Correta :) \n");
             pontuacao++;
         } else {
             char corretaMaiuscula = (char)toupper((unsigned char)perguntas[i].respostaCorreta);
